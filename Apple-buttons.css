@@ -1,0 +1,32 @@
+
+.nav-button{
+    
+margin-left:10px;
+margin-right:10px;
+background-color: transparent;
+border:none;
+vertical-align:middle;
+font-size:12px;
+color:rgb(58, 58, 58);
+
+}
+.quick-links{
+height:40px;
+
+border-radius:25px;
+border-width: 1px;   
+    border-style: solid;  
+    border-color: #333;
+    margin:7px;
+    
+    padding:12px;
+
+}
+.quick-links:hover{
+    background-color:#333;
+    color:white;
+    cursor:pointer;
+}
+.quick-links:active{
+ background-color:#202020;
+}

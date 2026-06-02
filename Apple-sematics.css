@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+}
+body {
+  font-family: 'Inter', sans-serif;
+  letter-spacing: -0.01em; /* Apple typically uses slightly tight letter-spacing for headers */
+  background-color:rgb(241, 241, 241);
+}
+.leftside{
+    display:flex;
+    flex:1;
+}
+.navigation{
+    margin-top:0px;
+    display:flex;
+    flex:1;
+    align-items:center;
+    height:44px;
+  
+    justify-content:space-between;
+}
+.rightside{
+    display:flex;
+    flex:1;
+}
+.ad-bar{
+background-color:rgb(255, 255, 255);
+height:84px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:15px;
+    font-weight:300;
+    
+}
+.offers{
+    color:rgb(6, 122, 189);
+    
+}
+.offers:hover{
+    cursor:pointer;
+    text-decoration:underline;
+}
+.store-text{
+    font-size:40px;
+    font-weight:thin;
+    margin-top:80px;
+    margin-left:140px;
+    display:inline-block;
+}
+.right-text{
+    display:grid;
+    text-align:right;
+    vertical-align:top;
+    display:inline-block;
+    margin-left:750px;
+    font-size:17px;
+    margin-top:60px;
+    
+
+}
+.right-blue-text{
+    
+color:rgb(6, 122, 189);
+font-size:15px;
+    font-weight:300;
+margin-top:13px
+
+}
+.right-blue-text:hover{
+    text-decoration:underline;
+}
+.tiles{
+    margin-left:20px;
+    font-size:14px;
+    object-fit:contain;
+    width:128px;
+    height:78px;
+    font-weight:600;
+    text-align:center;
+      vertical-align:top;
+}
+.cards{ 
+    margin-top:30px;
+     height:500px;
+    width:400px;
+    margin-left:5px;
+    margin-right:5px;
+    border-radius:20px;
+    position: relative;
+    
+    display:inline-block;
+}
+.cards:hover{
+transform: scale(1.02);
+box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+cursor: pointer;
+transition: transform 0.6s ease; 
+
+}
+.card-image{
+border-radius:20px;
+    height:500px;
+    width:400px;
+}
+.card-text {
+    position: absolute;
+            top: 40px;       
+            left: 30px;   
+            line-height: 1.6;  
+            color: rgb(0, 0, 0);
+            font-size: 24px;
+            font-weight: bold;
+            line-height:37px;
+          
+}
+.small-cards{
+    vertical-align:top;
+    margin-top:30px;
+    width:309px;
+    height:248px;
+    margin-left:5px;
+    margin-right:5px;
+    border-radius:20px;
+    background-color:white;
+    position: relative;
+    display:inline-block;
+}
+.small-cards:hover{
+    transform: scale(1.02);
+box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+cursor: pointer;
+transition: transform 0.6s ease; 
+}
+.small-card-text{
+    padding:20px;
+    font-size:23px;
+    font-weight:600;
+}
+.fat-cards{
+      margin-top:17px;
+     height:480px;
+    width:500px;
+    
+    margin-left:10px;
+    margin-right:10px;
+    border-radius:20px;
+    position: relative;
+    display:inline-block;
+}
+.fat-cards:hover{
+transform: scale(1.02);
+box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+cursor: pointer;
+transition: transform 0.6s ease; 
+
+}
+.fat-card-image{
+border-radius:20px;
+    height:480px;
+    width:500px;
+}
+.fat-card-text{
+    position: absolute;
+            top: 40px;       
+            left: 30px;   
+            line-height: 1.5;  
+            color: rgb(0, 0, 0);
+            
+          
+}
+.thin-cards{
+   margin-top:30px;
+     height:440px;
+    width:275px;
+    margin-left:10px;
+    margin-right:10px;
+    border-radius:20px;
+    position: relative;
+    display:inline-block;
+    background-color:white;
+    padding:28px;
+}
+.thin-card-image{
+    padding:20px;
+border-radius:20px;
+margin-top:30px;
+    height:230px;
+    width:230px;
+    object-fit:contain;
+}
+.thin-cards:hover{
+transform: scale(1.02);
+box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+cursor: pointer;
+transition: transform 0.6s ease; 
+
+}
+.discription{
+
+margin:270px;
+margin-top:70px;
+}
+.discription-texts{
+ font-size:12px;
+ color:grey;
+ 
+}
+.discription-text:hover{
+cursor:pointer;
+text-decoration:underline;
+}
+.discription-text{
+    text-decoration:underline;
+}
+.catagory{
+    font-size:12px;
+    color:grey;
+    display:inline-block;
+    margin-left:73px;
+    white-space: nowrap;
+    line-height:2.4;
+    
+}
+.discription-text1:hover{
+cursor:pointer;
+text-decoration:underline;
+}
